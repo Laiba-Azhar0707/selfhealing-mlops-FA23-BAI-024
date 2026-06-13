@@ -74,3 +74,5 @@ Deployed on an **AWS EC2 instance** (t3.large class, 2 vCPU / 8 GB RAM + 8 GB sw
 public IP `54.210.171.66`, Ubuntu 26.04 LTS, ports 22/8080/9090/9093/3000/8000/32500.
 Prometheus + Alertmanager run as Docker containers (host network); Grafana via apt;
 the app runs on Minikube exposed via NodePort 32500 (forwarded to the host with socat).
+
+<!-- CI webhook verification: push trigger test -->
